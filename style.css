@@ -8,7 +8,7 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-section {
+.section_mobile {
     background: white;
     margin: 8.1rem 1.5rem;
     padding-top: 7rem;
@@ -60,4 +60,101 @@ hr {
 #icon_arrow {
     width: auto;
     height: .5rem;
+    transform: rotate(0deg);
+}
+
+#img-pattern {
+    display: none;
+}
+
+#illu-box {
+    display: none;
+}
+
+#illu-woman {
+    display: none;
+}
+
+.div-img-woman {
+    display: none;
+}
+
+.description {
+    display: none;
+}
+
+@media screen and (min-width : 1290px) {
+
+    h1 {
+        text-align: left;
+    }
+
+    .section_mobile {
+        padding: 0 5rem;
+        padding-left: 0;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin: auto;
+        margin-bottom: 10%;
+        box-shadow: 30px 30px 30px 1px rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: space-between;
+        max-width: 70rem;
+        min-height: 25rem;
+    }
+
+    #img {
+        display: none;
+    }
+
+    #shadow-img {
+        display: none;
+    }
+
+    img {
+        position: absolute;
+    }
+
+    #icon_arrow {
+        position: relative;
+    }
+
+    #img-pattern {
+        display: block;
+        margin-left: -28rem;
+        margin-top: -6rem;
+    }
+    
+    #illu-box {
+        display: block;
+        position: relative;
+        left: -3.3rem;
+        top: 24rem;
+        z-index: 200;
+    }
+    
+    .div-img-woman {
+        display: block;
+        width: 50%;
+        overflow:hidden;
+    }
+
+    .content {
+        width: 45%;
+    }
+
+    #illu-woman {
+        display: block;
+        position: relative;
+        width: 35rem;
+        height: auto;
+        left: -5rem;
+        /* top: 3rem; */
+    }
+
+    main {
+        max-width: 80rem;
+        margin: auto;
+    }
+
 }
