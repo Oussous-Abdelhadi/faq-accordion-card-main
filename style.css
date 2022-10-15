@@ -83,6 +83,10 @@ hr {
     display: none;
 }
 
+.block, .block1, .block2, .block3, .block4, .block5 {
+    cursor: pointer;
+}
+
 @media screen and (min-width : 1290px) {
 
     h1 {
