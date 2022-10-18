@@ -10,12 +10,14 @@ body {
 
 .section_mobile {
     background: white;
-    margin: 8.1rem 1.5rem;
+    margin: auto;
+    margin: 8.1rem auto;
     padding-top: 7rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     padding-bottom: 2rem;
     border-radius: 20px;
+    max-width: 325px;
 }
 
 h1{
@@ -50,7 +52,6 @@ hr {
 
 
 .title_titles {
-    /* background: red; */
     height: 2rem;
     display: flex;
     justify-content: space-between;
@@ -86,7 +87,7 @@ hr {
 .block, .block1, .block2, .block3, .block4, .block5 {
     cursor: pointer;
 }
-
+/* 
 @media screen and (min-width : 1290px) {
 
     h1 {
@@ -153,7 +154,6 @@ hr {
         width: 35rem;
         height: auto;
         left: -5rem;
-        /* top: 3rem; */
     }
 
     main {
@@ -161,4 +161,5 @@ hr {
         margin: auto;
     }
 
-}
+} 
+***/
